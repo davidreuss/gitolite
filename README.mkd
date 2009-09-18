@@ -1,5 +1,25 @@
 # gitolite
 
+>   ----
+
+>   ***REBEL FORK WARNING***
+
+>   The paranoid half of Sitaram's brain would like to warn you that the other
+>   half rebelled and created this fork.
+
+>   1.  please read the "design choices" section in the [faqs, tips, etc]
+>       [fted] document for background
+>   2.  please read the comments in the example.conf file carefully before
+>       creating your own config file
+>   3.  please test your configuration carefully
+>   4.  if you still have problems and contact me, please mention right up
+>       front that you're using the ***rebel edition***; makes it easier to
+>       troubleshoot
+
+[fted]: http://github.com/sitaramc/gitolite/blob/rebel/doc/3-faq-tips-etc.mkd
+
+----
+
 >   [IMPORTANT: There is now an "upgrade" document in the "doc" directory;
 >   please read if upgrading gitolite]
 

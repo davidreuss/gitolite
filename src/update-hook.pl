@@ -68,6 +68,7 @@ for my $ar (@allowed_refs)
     my $refex = (keys %$ar)[0];
     # refex?  sure -- a regex to match a ref against :)
     next unless $ref =~ /$refex/;
+    die "$perm $ref $ENV{GL_USER} DENIED by $refex\n" if $ar->{$refex} eq '-';
     if ($ar->{$refex} =~ /\Q$perm/)
     {
         # if log failure isn't important enough to block pushes, get rid of
